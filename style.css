@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+ */
+body{
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;    
+    /*  si vous utilisez "100%", la hauteur de votre corps de page sera relative à la hauteur du conteneur parent, tandis que "100vh" garantit que la hauteur du corps de la page est égale à la hauteur totale de la fenêtre d'affichage du navigateur. */
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    
+}
+.container{
+    max-width:960px ;
+    margin: 0 auto;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ; 
+    border-radius: 12px;
+    margin: 4rem;
+    overflow: hidden; 
+}
+.box1{
+    background: hsl(31, 77%, 52%);
+}
+.box2{
+    background: hsl(184, 100%, 22%);
+}
+.box3{
+    background: hsl(185, 97%, 13%);
+}
+.box{
+    padding: 40px;
+}
+.box h2{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: capitalize;
+    color: white;
+    font-size:30px ;
+}
+.box p{
+    color:  hsl(0, 0%, 95%);
+    line-height: 1.5;
+}
+.box a{
+    text-decoration: none;
+    background-color: white;
+    padding: 13px 27px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display: inline-block;
+
+}
+/* a completer */
